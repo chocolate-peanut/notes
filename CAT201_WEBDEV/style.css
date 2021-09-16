@@ -1,0 +1,97 @@
+body {
+    padding: 20px;
+    font-family: "serif";
+    font-size: 20px;
+    background-image: url("jess-bailey-OhWKm1YoMgE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.title {
+    font-family: 'DM Serif Text', serif, sans-serif, Arial;
+}
+
+.title h1 {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.title p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.title h3 {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+form {
+    margin-top: 40px;
+}
+
+.container {
+    background: transparent;
+    outline: none;
+    width: 500px;
+    padding: 30px;
+    position: relative;
+    top: 40%;
+    left: 30%
+}
+
+.data {
+    width: 500px;
+    height: 50px;
+    position: relative;
+    font-family: serif;
+    font-size: 20px;
+}
+
+.data input {
+    height: 50px;
+    width: 100%;
+    background: transparent;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid dimgray;
+}
+
+.data label {
+    left: 0;
+    position: absolute;
+    bottom: 10px;
+    transition: all 0.5s ease;
+}
+
+.data input:focus~label, .data input:valid~label {
+    transform: translateY(-23px);
+    font-size: 18px;
+    color: darkolivegreen;
+}
+
+.submit {
+    font-family: 'DM Serif Text' ,serif, sans-serif, Arial;
+    text-decoration: none;
+    background-color: #faa111;
+    color: black;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    position: fixed;
+    right: 550px;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+    color: black;
+}

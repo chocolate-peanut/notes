@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap" rel="stylesheet">
+    <title>SECRET NOTE</title>
+</head>
+
+<body>
+    <div class="title">
+        <h1>&nbspWelcome to Secret Note</h1>
+        <p>&nbspYou can write whatever you feel<br><br>
+        <h3>For you and only you</h3>-----
+    </div>
+
+    <form action="config.php" method="post">
+        <div class="container">
+            <div class="data">
+                <input type="text" name="username" required>
+                <label>Enter Username</label>
+            </div>
+            <br>
+            <div class="data">
+                <input type="email" name="email" required>
+                <label>Enter Email</label>
+            </div>
+            <br>
+            <div class="data">
+                <input type="text" name="text" id="txt"required>
+                <label>Enter Message</label>
+            </div>
+            <br><br>
+            <label><input type="submit" name="submit" value="Submit and Save" class="submit" ></label>
+        </div>
+    </form>
+
+    <form action="readFile.php">
+        <label><input type="submit" value="View Info" class="submit" id="btn"></label>
+    </form>
+
+</body>
+</html>
